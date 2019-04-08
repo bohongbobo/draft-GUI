@@ -1,0 +1,28 @@
+Welcome to Cognitive State Machine's documentation!
+===================================================
+
+.. automodule:: statemachine
+    :members:
+
+.. automodule:: state
+    :members:
+
+.. automodule:: event
+    :members:
+
+.. automodule:: output
+    :members:
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

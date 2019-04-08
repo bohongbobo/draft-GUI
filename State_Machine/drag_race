@@ -1,0 +1,27 @@
+Drag Race
+3
+2
+2
+ready
+00000
+11000000000000 
+driving
+10000
+00111001000000 
+finished
+20000
+Event1
+11000000000000
+Event2
+00111001000000
+Output1
+022010
+Output2
+100121
+driving -1 
+-1 finished 
+-1 -1 
+Output1 -1 
+-1 Output2 
+-1 -1 
+

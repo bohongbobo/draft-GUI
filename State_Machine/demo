@@ -1,0 +1,40 @@
+Circuit Race
+4
+5
+3
+initial
+00000
+00110000000000 00111000000000 00101000000000 00111100000000 00111110000000
+turning_left
+11000
+00111000000000 00101000000000 00111100000000 00111110000000
+turning_right
+12000
+00110000000000 00111000000000 00111100000000 00111110000000
+driving_straight
+10000
+00110000000000 00111000000000 00101000000000 00111100000000 00111110000000
+Event1
+00110000000000
+Event2
+00111000000000
+Event3
+00101000000000
+Event4
+00111100000000
+Event5
+00111110000000
+Output1
+001010
+Output2
+020000
+Output3
+012000
+turning_left driving_straight turning_right turning_left turning_right
+turning_left driving_straight turning_right turning_left turning_right
+turning_left driving_straight turning_right turning_left turning_right
+turning_left driving_straight turning_right turning_left turning_right
+Output1 Output2 Output3 Output1 Output3
+Output1 Output2 Output3 Output1 Output3
+Output1 Output2 Output3 Output1 Output3
+Output1 Output2 Output3 Output1 Output3

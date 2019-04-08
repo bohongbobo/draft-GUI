@@ -1,0 +1,3 @@
+arrow left
+arrow right
+arrow up

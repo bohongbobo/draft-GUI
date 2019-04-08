@@ -1,0 +1,17 @@
+Using apt-get (sudo apt-get install ____):
+
+python3-pip
+python3-tk
+
+
+-ONLY FOR MAKING PDF MANUAL-
+latexmk
+texlive-format-extra
+----------------------------
+
+Using pip3 (pip3 install ____):
+- numpy
+- opencv-python
+- sphinx
+- Pillow
+- scipy

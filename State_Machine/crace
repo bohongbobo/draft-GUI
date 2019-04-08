@@ -1,0 +1,49 @@
+Your State Machine
+5
+5
+4
+ready
+00000
+11000000000000 
+driving
+10000
+00110001000000 00100001000000 
+left_turn
+01000
+00000000100000 00000001000000 
+right_turn
+02000
+00000000100000 00000001000000 
+stopped
+20000
+11000000000000 
+Event1
+11000000000000
+Event2
+00110001000000
+Event3
+00100001000000
+Event4
+00000000100000
+Event5
+00000001000000
+Output1
+022010
+Output2
+001000
+Output3
+002000
+Output4
+100121
+driving -1 -1 -1 -1 
+-1 left_turn right_turn -1 -1 
+-1 -1 -1 stopped stopped 
+-1 -1 -1 stopped stopped 
+driving -1 -1 -1 -1 
+
+Output1 -1 -1 -1 -1 
+-1 Output2 Output3 -1 -1 
+-1 -1 -1 Output4 Output4 
+-1 -1 -1 Output4 Output4 
+Output1 -1 -1 -1 -1 
+

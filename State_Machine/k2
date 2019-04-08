@@ -1,0 +1,43 @@
+Drag Race
+3
+6
+6
+Ready
+000000
+00000000000000 11
+Driving
+111111
+11000000000000 01
+Stopped
+101010
+111 000
+Event1
+00000000000000
+Event2
+11
+Event3
+11000000000000
+Event4
+01
+Event5
+111
+Event6
+000
+Output1
+1001
+Output2
+1021
+Output3
+1202
+Output4
+1030
+Output5
+1000
+Output6
+1221
+Driving Stopped -1 -1 -1 -1
+-1 -1 Driving Ready -1 -1
+-1 -1 -1 -1 Ready Driving
+Output1 Output2 -1 -1 -1 -1
+-1 -1 Output3 Output4 -1 -1
+-1 -1 -1 -1 Output5 Output6
