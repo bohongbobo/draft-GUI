@@ -22,6 +22,7 @@ import os
 from tkinter import scrolledtext
 import sys
 from tkinter import BOTH, END, LEFT, RIGHT
+import statemachine as SM
 
 #GUI Class
 ################################################################################
@@ -52,28 +53,34 @@ class GUI:
 	'''
 
 	def __init__(self, title = ""):
-		'''
-		The constructor for the GUI class. This initializes Tkinter.
+            '''
+            The constructor for the GUI class. This initializes Tkinter.
 
-		:type title: string
-		:param title: the title of the window
-		'''
+            :type title: string
+            :param title: the title of the window
+            '''
 
-		self.root = tk.Toplevel()
-		self.root.title = title
-		#self.idle = tk.Label(self.root, text = "Loading...")
-		#self.idle.pack()
-		self.active = False
+            self.root = tk.Toplevel()
+            self.root.title = title
+            #self.idle = tk.Label(self.root, text = "Loading...")
+            #self.idle.pack()
+            self.active = False
 
-		# If window is closed call deactivate function
-		self.root.protocol("WM_DELETE_WINDOW", self.deactivate)
+            # If window is closed call deactivate function
+            self.root.protocol("WM_DELETE_WINDOW", self.deactivate)
 
-		self.quitbtn = tk.Button(self.root, text="Quit", width=12, command=self.quit_btn)
-		self.quitbtn.pack()
-		global lbtext
-		lbtext = scrolledtext.ScrolledText(self.root)
-		lbtext.pack(side=RIGHT, ipady=180)
+            self.quitbtn = tk.Button(self.root, text="Quit", width=12, command=self.quit_btn)
+            self.quitbtn.pack()
+            global lbtext
+            lbtext = scrolledtext.ScrolledText(self.root)
+            lbtext.pack(side=RIGHT, ipady=180)
+            lbtext1 = scrolledtext.ScrolledText(self.root)
+            lbtext1.pack()
 
+            #self.sm = SM.StateMachine('')
+
+#            out = self.sm.current_state
+#            self.lbtext1.insert(END, out)
 
 
 	def quit_btn(self):
